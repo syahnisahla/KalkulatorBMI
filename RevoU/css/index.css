@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.box {
+    width: 1000px;
+    color: #0078AA;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 30px 20px;
+    background-color: #F6F6F6;
+}
+
+.off {
+    display: none;
+}
+
+.btn-hitung {
+    background-color: #0078AA;
+    padding: 5px 10px;
+    color: #F6F6F6;
+}
+
+.btn-reset {
+    background-color: rgb(230, 32, 32);
+    color: white;
+    padding: 5px 10px;
+}
+
+@media (max-width: 576px) {
+    .box {
+        width: 90vw;
+    }
+}
